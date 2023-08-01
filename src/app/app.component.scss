@@ -38,6 +38,9 @@
         z-index: 1;
         border-radius: 5px;
     }
+    :host::ng-deep.dropdown-list{
+overflow: hidden;
+}
 
     :host::ng-deep.multiselect-dropdown .dropdown-btn {
         min-height: 30px;
